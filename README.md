@@ -22,7 +22,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_multilingual_keyboard: ^1.1.2
+  flutter_multilingual_keyboard: ^1.1.3
 ```
 Or Simply Run in `Terminal`
 ```yaml
@@ -55,7 +55,7 @@ builder: (_, show, __) => show ? const AppKeyboard() : const SizedBox(),
 
 ---
 
-1.1.2
+1.1.3
 
 ## Initial release:
 
