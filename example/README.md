@@ -1,6 +1,6 @@
-# flutter_custom_keyboard_example
+# flutter_multilingual_keyboard_example
 
-Demonstrates how to use the flutter_custom_keyboard plugin.
+Demonstrates how to use the flutter_multilingual_keyboard plugin.
 
 ## Getting Started
 

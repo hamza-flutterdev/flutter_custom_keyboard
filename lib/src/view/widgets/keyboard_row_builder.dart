@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../flutter_custom_keyboard.dart';
+import '../../../flutter_multilingual_keyboard.dart';
 import '../../core/common_widgets/buttons.dart';
 import '../../core/helper/keyboard_helper.dart';
 import 'key_cap.dart';
@@ -31,11 +31,9 @@ class KeyboardRowBuilder {
     const double specialButtonWidth = 48.0;
 
     final availableKeys = <String>[];
-    for (
-      int i = 0;
-      i < count && startIndex + i < service.currentKeys.length;
-      i++
-    ) {
+    for (int i = 0;
+        i < count && startIndex + i < service.currentKeys.length;
+        i++) {
       availableKeys.add(service.currentKeys[startIndex + i]);
     }
 
@@ -62,9 +60,8 @@ class KeyboardRowBuilder {
 
           final keysCount = availableKeys.isEmpty ? 1 : availableKeys.length;
 
-          double finalKeyWidth = helperWidth > 0
-              ? helperWidth
-              : (availableForKeys / keysCount);
+          double finalKeyWidth =
+              helperWidth > 0 ? helperWidth : (availableForKeys / keysCount);
 
           if (finalKeyWidth * keysCount > availableForKeys) {
             finalKeyWidth = availableForKeys / keysCount;

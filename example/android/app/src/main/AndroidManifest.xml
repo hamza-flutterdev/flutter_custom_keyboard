@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="flutter_custom_keyboard_example"
+        android:label="flutter_multilingual_keyboard_example"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

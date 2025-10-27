@@ -1,4 +1,4 @@
-package com.btechno.flutter_custom_keyboard_example
+package com.btechno.flutter_multilingual_keyboard
 
 import io.flutter.embedding.android.FlutterActivity
 

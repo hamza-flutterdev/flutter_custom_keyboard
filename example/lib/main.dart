@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_keyboard/flutter_custom_keyboard.dart';
+import 'package:flutter_multilingual_keyboard/flutter_multilingual_keyboard.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // load packaged asset
-  await KeyboardLanguageService.load(packageName: 'flutter_custom_keyboard');
+  await KeyboardLanguageService.load(
+    packageName: 'flutter_multilingual_keyboard',
+  );
 
   // create instances (the app controls lifecycle)
   final service = KeyboardService();

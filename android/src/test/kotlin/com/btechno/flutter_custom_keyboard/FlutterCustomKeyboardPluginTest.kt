@@ -1,4 +1,4 @@
-package com.btechno.flutter_custom_keyboard
+package com.btechno.flutter_multilingual_keyboard
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

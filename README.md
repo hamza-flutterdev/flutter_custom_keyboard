@@ -1,4 +1,4 @@
-# flutter_custom_keyboard
+# flutter_multilingual_keyboard
 
 A fully customizable Flutter on-screen keyboard widget with multi-language support.  
 Built entirely in Flutter.
@@ -22,17 +22,17 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_custom_keyboard: ^1.1.2
+  flutter_multilingual_keyboard: ^1.1.2
 ```
 Or Simply Run in `Terminal`
 ```yaml
-  flutter pub add flutter_custom_keyboard
+  flutter pub add flutter_multilingual_keyboard
 ```
 
 ## 🚀 Usage
 
 ```dart
-import 'package:flutter_keyboard_package/flutter_keyboard_package.dart';
+import 'package:flutter_multilingual_keyboard/flutter_multilingual_keyboard.dart';
 
 final service = KeyboardService();
 final controller = AppKeyboardController();

@@ -1,4 +1,4 @@
-group = "com.btechno.flutter_custom_keyboard"
+group = "com.btechno.flutter_multilingual_keyboard"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "com.btechno.flutter_custom_keyboard"
+    namespace = "com.btechno.flutter_multilingual_keyboard"
 
     compileSdk = 36
 
