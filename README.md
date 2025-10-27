@@ -24,7 +24,7 @@ Add to your `pubspec.yaml`:
 dependencies:
   flutter_custom_keyboard: ^1.1.2
 ```
-Or
+Or Simply Run in `Terminal`
 ```yaml
   flutter pub add flutter_custom_keyboard
 ```
@@ -42,3 +42,22 @@ KeyboardScope(
   controller: controller,
   child: MyApp(),
 );
+
+```
+## Then Use:
+
+```dart
+ValueListenableBuilder<bool>(
+valueListenable: service.showKeyboard,
+builder: (_, show, __) => show ? const AppKeyboard() : const SizedBox(),
+)
+```
+
+---
+
+1.1.2
+
+## Initial release:
+
+- Added English, Japanese, and Urdu language support
+- Added caps modes and key animations
