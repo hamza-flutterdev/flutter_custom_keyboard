@@ -1,0 +1,29 @@
+name: flutter_custom_keyboard
+description: A customizable Flutter on-screen keyboard widget with multi-language support, written in pure Flutter (no platform code).
+version: 0.0.1
+repository: https://github.com/hamza-flutterdev/flutter_custom_keyboard
+issue_tracker: https://github.com/hamza-flutterdev/flutter_custom_keyboard/issues
+homepage: https://github.com/hamza-flutterdev/flutter_custom_keyboard
+topics:
+  - keyboard
+  - flutter
+  - input
+  - language
+  - widget
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/keyboards.json
