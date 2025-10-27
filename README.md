@@ -22,8 +22,23 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_custom_keyboard: ^1.0.1
+  flutter_custom_keyboard: ^1.1.2
 ```
 Or
 ```yaml
   flutter pub add flutter_custom_keyboard
+```
+
+## 🚀 Usage
+
+```dart
+import 'package:flutter_keyboard_package/flutter_keyboard_package.dart';
+
+final service = KeyboardService();
+final controller = AppKeyboardController();
+
+KeyboardScope(
+  service: service,
+  controller: controller,
+  child: MyApp(),
+);
