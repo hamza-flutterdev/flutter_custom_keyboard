@@ -20,8 +20,11 @@ Built entirely in Flutter.
 
 ## 🚀 Installation
 
-Add to your `pubspec.yaml`:
+Add to your `pubspec.yaml`: 
 
 ```yaml
 dependencies:
-  flutter_custom_keyboard: ^0.0.1
+  flutter_custom_keyboard: ^1.0.1
+```
+```yaml
+  flutter pub add flutter_custom_keyboard
